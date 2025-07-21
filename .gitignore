@@ -1,0 +1,83 @@
+# --- Node/Vite/React/TypeScript ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.next/
+frontend/.cache/
+frontend/.eslintcache
+frontend/.env
+frontend/.env.*.local
+frontend/.turbo/
+frontend/coverage/
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# --- TypeScript ---
+frontend/**/*.tsbuildinfo
+
+# --- Log files ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- macOS ---
+.DS_Store
+
+# --- VSCode ---
+.vscode/
+
+# --- JetBrains IDEs (WebStorm, PyCharm, etc.) ---
+.idea/
+*.iml
+
+# --- General Editor ---
+*.swp
+*.swo
+
+# --- Python/FastAPI ---
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/env/
+backend/venv/
+backend/.venv/
+backend/env.bak/
+backend/venv.bak/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.coverage
+backend/coverage.xml
+backend/.tox/
+backend/.env
+backend/.env.*
+backend/.DS_Store
+backend/.vscode/
+backend/.idea/
+backend/.ipynb_checkpoints/
+backend/instance/
+backend/.pdm.toml
+backend/.pdm.lock
+
+# --- Python virtual environments (sometimes in root) ---
+env/
+venv/
+.venv/
+
+# --- Python packaging ---
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Misc ---
+*.bak
+*.tmp
+*.temp
+
+# --- System files ---
+Thumbs.db
+ehthumbs.db
