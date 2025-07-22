@@ -1,12 +1,10 @@
-
+import Header from '@/components/header'
 import type { PropsWithChildren } from 'react'
 
 const Layout = ({ children }: PropsWithChildren) => {
     return (
         <div className="bg-gradient-to-br from-background to-muted">
-            <header>
-                <h1>Header</h1>
-            </header>
+            <Header/>
             <main className="min-h-screen conatiner mx-auto px-4 py-8">
                 {children}
             </main>
